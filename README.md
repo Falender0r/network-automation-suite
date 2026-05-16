@@ -104,16 +104,21 @@ scp cisco/ciscotomasi.sh admin@192.168.1.1:
 ssh admin@192.168.1.1
 
 # Run script (Cisco uses different syntax - adjust as needed)
+
 📸 Demonstration
+
 Replace placeholder images with actual terminal screenshots from your setup.
 
 📈 Impact
+
 Metric	Before Automation	After Automation
 Deployment Time	2–3 hours	~15 minutes
 Configuration Errors	Frequent	Minimal
 Reproducibility	Manual, fragile	One-command
 Documentation	Separate	Built into scripts
+
 🧪 Test Environment
+
 Component	Specification
 Simulation	PnetLab
 Ubuntu Server	2x Ubuntu 22.04
@@ -121,7 +126,9 @@ MikroTik	1x RouterOS CHR
 Cisco Switch	1x IOSv
 Network	VLAN10 (Prod), VLAN20 (Guest), VLAN30 (Mgmt)
 Client OS	Windows 10
+
 📝 Script Details
+
 tomasi.sh (Ubuntu)
 Installs Apache2, PHP, and required modules
 
@@ -150,15 +157,18 @@ Enables port security with sticky MAC
 Sets up basic switch security (disable unused ports, etc.)
 
 🔧 Troubleshooting
+
 Issue	Solution
 Permission denied	Run chmod +x script.sh
 SSH connection failed	Check IP address and firewall rules
 MikroTik import error	Ensure script uses RouterOS syntax (not Bash)
 Cisco command not found	Use Cisco IOS syntax, not Bash
+
 📄 License
 MIT
 
 👨‍💻 Author
+
 Faris Farasdak Al Murtadha
 
 GitHub: @falender0r
@@ -170,6 +180,7 @@ Email: farasdakalfaris@gmail.com
 Location: Bandung, Indonesia
 
 🙏 Acknowledgments
+
 SMKN 5 Bandung – Computer & Network Engineering Program
 
 PnetLab Community
@@ -179,8 +190,6 @@ MikroTik & Cisco documentation
 All instructors who provided guidance
 
 ⭐ Star this repository if you find it useful for network automation!
-
-text
 
 ---
 
