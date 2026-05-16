@@ -47,14 +47,10 @@
 
 ## 📁 Project Structure
 
-network-automation-suite/
-├── ubuntu/
-│   └── tomasi.sh
-├── mikrotik/
-│   └── miktomasi.sh
-├── cisco/
-│   └── ciscotomasi.sh
-└── README.md
+- **ubuntu/** → `tomasi.sh`
+- **mikrotik/** → `miktomasi.sh`
+- **cisco/** → `ciscotomasi.sh`
+- **README.md** (root)
 
 ---
 
