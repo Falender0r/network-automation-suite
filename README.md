@@ -45,37 +45,25 @@
 
 ---
 
-## 📁 Project Structure
+📁Project Structure
 network-automation-suite/
 ├── ubuntu/
-│ └── tomasi.sh # Ubuntu server automation
+│ └── tomasi.sh
 ├── mikrotik/
-│ └── miktomasi.sh # MikroTik RouterOS automation
+│ └── miktomasi.sh
 ├── cisco/
-│ └── ciscotomasi.sh # Cisco switch automation
+│ └── ciscotomasi.sh
 └── README.md
-
-text
 
 ---
 
-## 🛠️ Tech Stack
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ Ubuntu 22.04 │ │ MikroTik ROS │ │ Cisco IOS │
-│ - Bash │ │ - CLI scripts │ │ - Expect │
-│ - SSH │ │ - SSH/winbox │ │ - Telnet/SSH │
-│ - UFW │ │ - PCQ queues │ │ - VLAN trunk │
-└─────────────────┘ └─────────────────┘ └─────────────────┘
-│ │ │
-└───────────────────────┼───────────────────────┘
-▼
-┌─────────────────────────────┐
-│ Orchestration (Manual) │
-│ Run each script per │
-│ target device │
-└─────────────────────────────┘
+🛠️Tech Stack
 
-text
+| Device | Technologies |
+|--------|--------------|
+| Ubuntu | Bash, SSH, UFW |
+| MikroTik | CLI scripts, SSH/winbox, PCQ queues |
+| Cisco | Expect, Telnet/SSH, VLAN trunk |
 
 ---
 
