@@ -45,7 +45,7 @@
 
 ---
 
-📁Project Structure
+## 📁 Project Structure
 network-automation-suite/
 ├── ubuntu/
 │ └── tomasi.sh
