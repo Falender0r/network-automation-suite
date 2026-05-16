@@ -54,7 +54,7 @@
 
 ---
 
-🛠️Tech Stack
+## 🛠️ Tech Stack
 
 | Device | Technologies |
 |--------|--------------|
@@ -105,8 +105,6 @@ ssh admin@192.168.1.1
 
 # Run script (Cisco uses different syntax - adjust as needed)
 📸 Demonstration
-Ubuntu Server	MikroTik RouterOS	Cisco Switch
-https://./screenshots/ubuntu.png	https://./screenshots/mikrotik.png	https://./screenshots/cisco.png
 Replace placeholder images with actual terminal screenshots from your setup.
 
 📈 Impact
@@ -186,23 +184,10 @@ text
 
 ---
 
-## Cara Copy Paste ke Notepad
-
-1. Di terminal, sudah kamu ketik `notepad README.md` (dari perintah sebelumnya)
-2. Notepad akan terbuka
-3. **Blok semua teks README di atas** (dari `# NetAutomate Pro...` sampai akhir)
-4. **Copy** (Ctrl+C)
-5. **Paste ke Notepad** (Ctrl+V)
-6. **Simpan** (Ctrl+S)
-7. **Tutup Notepad**
-
----
-
-## Kembali ke Terminal
-
-Setelah notepad ditutup, lanjutkan perintah:
+## Sekarang Push ke GitHub
 
 ```bash
-git add .
-git commit -m "Add professional README with multi-vendor automation guide"
-git push -u origin main --force
+cd C:\Users\Think Touch\OTOMASI-PNET
+git add README.md
+git commit -m "Final: clean README formatting"
+git push
